@@ -1,0 +1,28 @@
+{
+  "name": "mechanical-mass",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.5.0",
+    "@popperjs/core": "^2.11.8",
+    "@types/bootstrap": "^5.2.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "aos": "^3.0.0-beta.6",
+    "astro": "^4.10.2",
+    "astro-bootstrap": "^0.6.2",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "boxicons": "^2.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remixicon": "^4.3.0"
+  }
+}

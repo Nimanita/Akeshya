@@ -1,0 +1,50 @@
+---
+import Layout from '../layouts/Layout.astro';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'boxicons/css/boxicons.min.css';
+import '../components/styles/font.css';
+import 'aos/dist/aos.css';
+import Card from '../components/Card.astro';
+import Header from '../components/Header.jsx';
+import Home from '../components/Home.jsx';
+import Client from '../components/Client.jsx';
+import Aboutus from '../components/Aboutus.jsx';
+import Counter from '../components/Counter.jsx';
+import Services from '../components/Services.jsx';
+import MoreServices from '../components/MoreServices.jsx';
+import Feature from '../components/Feature.jsx';
+import Contact from '../components/Contact.jsx';
+import Footer from '../components/Footer.jsx';
+import '../components/styles/header-style.css';
+import '../components/styles/home-style.css';
+import '../components/styles/aboutus-style.css';
+
+import AOS from 'aos';
+
+---
+<html>
+ 
+  <body data-aos-easing="ease-in-out" data-aos-duration="1000"  data-aos-delay="0">
+    <div class = "aos-init aos-animate" data-aos="fade-in" data-aos-delay="200">
+	  <Header/>
+	  <Home/>
+	  <Client/>
+	  <Aboutus/>
+	  <Counter/>
+	  <Services/>
+	  <MoreServices/>
+	  <Feature/>
+	  <Contact/>
+	  <Footer/>
+	 </div>
+	
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script>AOS.init();</script>
+	<script src = "../components/js/purecounter.js"></script>
+	<script src = "../components/js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
+

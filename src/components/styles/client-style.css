@@ -1,0 +1,54 @@
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    src : url(../styles/fonts/opensans/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2)format('woff2');
+   }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    src : url(../styles/fonts/opensans/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2)format('woff2');
+   }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Raleway';
+    src : url(../styles/fonts/raleway/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2)format('woff2');
+    }
+  
+    .client {
+      background: #f3f9fd;
+      padding: 10px 0;
+      text-align: center;
+    }
+    
+    .client .col-lg-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .client img {
+      width: 50%;
+      filter: grayscale(100);
+      transition: all 0.4s ease-in-out;
+      display: inline-block;
+      padding: 10px 0;
+    }
+    
+    .client img:hover {
+      filter: none;
+      transform: scale(1.1);
+    }
+    
+    @media (max-width: 768px) {
+      .client img {
+        width: 40%;
+      }
+    }
+    
+    @media (max-width: 575px) {
+      .client img {
+        width: 30%;
+      }
+    }
+    
